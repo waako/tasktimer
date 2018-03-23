@@ -2398,6 +2398,14 @@ html {
   background: #fff;
   padding: 1rem 0;
   text-transform: uppercase;
-  width: 18%; }
+  width: 18%;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
+  -ms-flex-align: center;
+      align-items: center; }
   .timer-container .button-wrapper .button:focus, .timer-container .button-wrapper .button:hover {
     text-decoration: underline; }
+  .timer-container .button-wrapper .button span:first-of-type {
+    margin-top: 0.5em; }

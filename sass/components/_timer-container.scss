@@ -72,8 +72,14 @@
   padding: 1rem 0;
   text-transform: uppercase;
   width: 18%;
+  display: inline-flex;
+  flex-flow: column wrap;
+  align-items: center;
   &:focus,
   &:hover {
     text-decoration: underline;
+  }
+  span:first-of-type {
+    margin-top: 0.5em;
   }
 }
