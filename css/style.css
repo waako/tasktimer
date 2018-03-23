@@ -2322,14 +2322,12 @@ html {
   padding-bottom: 2rem;
   width: 100%; }
 
-.controls .button-form {
+.controls button {
+  background: #fff;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: column wrap;
       flex-flow: column wrap; }
-
-.controls button {
-  background: #fff; }
 
 /**
  * @file This file is to hold the styling for the .computed class
