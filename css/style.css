@@ -2327,7 +2327,9 @@ html {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: column wrap;
-      flex-flow: column wrap; }
+      flex-flow: column wrap;
+  -ms-flex-align: center;
+      align-items: center; }
 
 /**
  * @file This file is to hold the styling for the .computed class
