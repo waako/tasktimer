@@ -9,6 +9,11 @@
   width: 100%;
 }
 
+.controls .button-form {
+  display: flex;
+  flex-flow: column wrap;
+}
+
 .controls button {
   @extend %button;
   background: $white;
